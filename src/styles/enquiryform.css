@@ -1,0 +1,77 @@
+.gba-enquiry-card {
+  background: #fff;
+  padding: 22px;
+  border-radius: 12px;
+  border-bottom: 5px solid #0b3c8c;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+/* HEADER */
+.gba-enquiry-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gba-enquiry-header h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.gba-close-btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.gba-subtitle {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* FORM */
+.gba-form-group {
+  margin-bottom: 14px;
+}
+
+.gba-form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.gba-form-group input,
+.gba-form-group select,
+.gba-form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d0d0d0;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.gba-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #ffd200;
+  border: none;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.gba-status {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+}

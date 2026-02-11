@@ -1,0 +1,128 @@
+.pcmb-jee-neet {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+/* HERO */
+.pcmb-jee-neet .pcmb-hero {
+  background: linear-gradient(rgba(16, 38, 90, 0.9), rgba(16, 38, 90, 0.9));
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.pcmb-jee-neet .pcmb-hero-inner {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.pcmb-jee-neet .pcmb-hero h1 {
+  font-size: clamp(26px, 4vw, 40px);
+}
+
+.pcmb-jee-neet .pcmb-hero h2 {
+  margin: 15px 0;
+}
+
+.pcmb-jee-neet .pcmb-hero-cta {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* BUTTONS */
+.pcmb-jee-neet .pcmb-btn {
+  padding: 12px 22px;
+  border-radius: 6px;
+  border: none;
+  background: #ffcc00;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.pcmb-jee-neet .pcmb-btn.outline {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+/* TRUST */
+.pcmb-jee-neet .pcmb-trust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background: #f7f7f7;
+  padding: 25px 15px;
+  font-weight: 500;
+}
+
+/* SECTIONS */
+.pcmb-jee-neet section {
+  padding: 70px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* PROBLEM */
+.pcmb-jee-neet .pcmb-problem ul,
+.pcmb-jee-neet .pcmb-why ul {
+  padding-left: 20px;
+}
+
+.pcmb-jee-neet .pcmb-highlight {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #1f3c88;
+}
+
+/* COURSES */
+.pcmb-jee-neet .pcmb-course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.pcmb-jee-neet .pcmb-course-card {
+  border: 1px solid #e5e7eb;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* LEAD */
+.pcmb-jee-neet .pcmb-lead {
+  background: #1f3c88;
+  color: white;
+  text-align: center;
+}
+
+.pcmb-jee-neet .pcmb-form {
+  margin-top: 20px;
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.pcmb-jee-neet .pcmb-form input,
+.pcmb-jee-neet .pcmb-form button {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+}
+
+/* FINAL CTA */
+.pcmb-jee-neet .pcmb-final {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .pcmb-jee-neet section {
+    padding: 50px 15px;
+  }
+}

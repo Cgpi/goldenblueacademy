@@ -1,0 +1,155 @@
+.commerce-page {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+
+/* HERO */
+.commerce-hero {
+  background: #1f3c88;
+  color: #fff;
+  text-align: center;
+  padding: 70px 20px;
+}
+
+.commerce-hero h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.commerce-hero p {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-primary {
+  background: #f4c430;
+  border: none;
+  padding: 10px 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px 18px;
+  cursor: pointer;
+}
+
+/* ABOUT */
+.commerce-about {
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.commerce-about ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.commerce-about li {
+  margin-bottom: 10px;
+}
+
+/* SUBJECTS */
+.commerce-subjects {
+  background: #f7f9fc;
+  padding: 50px 20px;
+}
+
+.commerce-subjects h2 {
+  text-align: center;
+  color: #1f3c88;
+  margin-bottom: 40px;
+}
+
+.subject-grid {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.subject-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+.subject-card h3 {
+  color: #1f3c88;
+  margin-bottom: 10px;
+}
+
+/* CAREERS */
+.commerce-careers {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.career-grid {
+  max-width: 1000px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+}
+
+.career-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+/* STATS */
+.commerce-stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.commerce-stats h3 {
+  font-size: 26px;
+  color: #1f3c88;
+}
+
+/* CTA */
+.commerce-cta {
+  background: #f4c430;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.btn-dark {
+  background: #222;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .commerce-stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+}
