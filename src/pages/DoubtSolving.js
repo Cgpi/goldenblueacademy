@@ -1,7 +1,11 @@
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import "../styles/doubtsolving.css";
 
 export default function DoubtSolving() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <Helmet>

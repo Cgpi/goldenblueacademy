@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/germanlanguage.css";
 
 export default function GermanLanguage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="german-language-page">
       {/* HELMET META TAGS */}

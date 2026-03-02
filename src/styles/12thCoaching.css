@@ -1,3 +1,12 @@
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: nowrap; /* never wrap to next line */
+  align-items: center; /* vertically align if buttons differ in height */
+  width: 100%; /* allow buttons to take full width if needed */
+}
+
 .twelfth-page {
   font-family: Arial, Helvetica, sans-serif;
   color: #222;
@@ -137,6 +146,9 @@
   }
 
   .hero-buttons {
-    flex-direction: column;
-  }
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap; /* optional: wrap if screen is too narrow */
+}
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { useEffect } from "react";
 import "../styles/aboutus.css";
 
 import img1 from "../assets/Achievements1.jpg";
@@ -7,6 +8,9 @@ import img2 from "../assets/Achievements2.jpg";
 import img3 from "../assets/Achievements3.jpg";
 
 export default function AboutUs() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="aboutus-page">
       {/* SEO */}

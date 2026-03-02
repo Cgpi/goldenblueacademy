@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import "../styles/maincourses.css";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 import {
   School,
   BookOpen,
@@ -34,7 +35,7 @@ const courseData = [
     modeKey: "both",
   },
   {
-    title: "CEET/JEE/ NEET",
+    title: "CET/JEE/ NEET",
     icon: <Brain size={58} />,
     path: "/pcmb-jee-neet",
     mode: "Online & Offline",
@@ -57,6 +58,9 @@ const courseData = [
 ];
 
 export default function MainCourses() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="main-courses">
       {/* HELMET META TAGS */}

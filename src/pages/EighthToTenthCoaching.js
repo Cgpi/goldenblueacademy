@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/8to10coaching.css";
 
 export default function EighthToTenthCoaching() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="coaching-page">
       {/* HELMET TAG FOR SEO */}

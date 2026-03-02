@@ -1,25 +1,28 @@
 import React from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/12thCoaching.css";
 
 export default function TwelfthCoaching() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="twelfth-page">
       {/* SEO */}
       <Helmet>
         <title>
-          12th Coaching Classes | HSC, CBSE, ISC | Science & Commerce | Golden
-          Blue Academy
+          12th Coaching Classes | HSC, CBSE, ISC | Science | Golden Blue Academy
         </title>
 
         <meta
           name="description"
-          content="Best 12th coaching classes for HSC, CBSE & ISC boards. Science & Commerce streams with expert faculty, regular tests, and proven board results."
+          content="Best 12th coaching classes for HSC, CBSE & ISC boards. Science stream with expert faculty, regular tests, and proven board results."
         />
 
         <meta
           name="keywords"
-          content="12th coaching classes, HSC coaching, CBSE 12th coaching, ISC coaching, 12th science coaching, 12th commerce coaching, board exam classes"
+          content="12th coaching classes, HSC coaching, CBSE 12th coaching, ISC coaching, 12th science coaching, board exam classes"
         />
 
         <meta name="author" content="Golden Blue Academy" />
@@ -27,7 +30,7 @@ export default function TwelfthCoaching() {
         {/* Open Graph for Social Media */}
         <meta
           property="og:title"
-          content="12th Coaching Classes | Science & Commerce | Golden Blue Academy"
+          content="12th Coaching Classes | Science | Golden Blue Academy"
         />
         <meta
           property="og:description"
@@ -38,7 +41,7 @@ export default function TwelfthCoaching() {
 
       {/* HERO */}
       <section className="twelfth-hero">
-        <h1>12th Coaching – Science & Commerce</h1>
+        <h1>12th Coaching – Science </h1>
         <p>HSC • CBSE • ISC Board Exam Excellence</p>
 
         <div className="hero-buttons">
@@ -71,9 +74,9 @@ export default function TwelfthCoaching() {
       <section className="twelfth-about">
         <h2>About Our 12th Coaching Program</h2>
         <p>
-          We provide focused and result-oriented coaching for 12th Science and
-          Commerce students across all major boards. Our teaching methodology
-          ensures concept clarity, exam confidence, and top board performance.
+          We provide focused and result-oriented coaching for 12th Science
+          students across all major boards. Our teaching methodology ensures
+          concept clarity, exam confidence, and top board performance.
         </p>
 
         <ul>
@@ -103,17 +106,6 @@ export default function TwelfthCoaching() {
                 <li>IT / CS</li>
               </ul>
             </div>
-
-            <div>
-              <h3>Commerce</h3>
-              <ul>
-                <li>Accountancy</li>
-                <li>Economics</li>
-                <li>Business Studies</li>
-                <li>Mathematics</li>
-                <li>Statistics</li>
-              </ul>
-            </div>
           </div>
 
           <ul className="features">
@@ -138,16 +130,6 @@ export default function TwelfthCoaching() {
                 <li>CS / IP</li>
               </ul>
             </div>
-
-            <div>
-              <h3>Commerce</h3>
-              <ul>
-                <li>Accountancy</li>
-                <li>Economics</li>
-                <li>Business Studies</li>
-                <li>Mathematics</li>
-              </ul>
-            </div>
           </div>
 
           <ul className="features">
@@ -170,16 +152,6 @@ export default function TwelfthCoaching() {
                 <li>Mathematics</li>
                 <li>Biology</li>
                 <li>Computer Science</li>
-              </ul>
-            </div>
-
-            <div>
-              <h3>Commerce</h3>
-              <ul>
-                <li>Accountancy</li>
-                <li>Economics</li>
-                <li>Business Studies</li>
-                <li>Mathematics</li>
               </ul>
             </div>
           </div>

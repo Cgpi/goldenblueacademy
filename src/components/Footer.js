@@ -42,7 +42,7 @@ export default function Footer() {
               <Link to="/twelfth-coaching">11th – 12th Science</Link>
             </li>
             <li>
-              <Link to="/twelfth-coaching">11th – 12th Commerce</Link>
+              <Link to="/commerce-coaching">11th – 12th Commerce</Link>
             </li>
             <li>
               <Link to="/pcmb-jee-neet">CET/JEE/NEET</Link>
@@ -81,7 +81,8 @@ export default function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © 2026 Golden Blue Academy. All Rights Reserved.
+        <div>Designed by CGPI Software Pvt Ltd</div>
+        <div>© 2026 Golden Blue Academy. All Rights Reserved.</div>
       </div>
     </footer>
   );

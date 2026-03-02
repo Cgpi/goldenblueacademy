@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/examPreparation.css";
 
 export default function ExamPreparation() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="prep-page">
       {/* HELMET META TAGS */}

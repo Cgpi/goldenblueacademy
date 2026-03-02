@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "../styles/commercecoaching.css";
 
 export default function CommerceCoaching() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="commerce-page">
       {/* SEO */}
