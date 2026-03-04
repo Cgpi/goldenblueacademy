@@ -27,7 +27,7 @@ export default function ExamPreparation() {
       <section className="prep-hero">
         <h1>Exam Preparation Program</h1>
         <p>
-          Board Exams • Competitive Exams • Scholarship Tests <br />
+          Board Exams | Competitive Exams | Scholarship Tests <br />
           Structured Preparation for Guaranteed Results
         </p>
 
@@ -62,8 +62,8 @@ export default function ExamPreparation() {
         <h2>About Our Exam Preparation</h2>
         <p>
           Our exam preparation program is designed to help students manage
-          syllabus, revisions, and tests effectively. We focus on accuracy, time
-          management, and exam confidence.
+          syllabus, revisions and tests effectively. We focus on accuracy, time
+          management and exam confidence.
         </p>
 
         <ul>
@@ -102,7 +102,7 @@ export default function ExamPreparation() {
       </section>
 
       {/* STATS */}
-      <section className="prep-stats">
+      {/* <section className="prep-stats">
         <div>
           <h3>95%</h3>
           <p>Success Rate</p>
@@ -119,12 +119,12 @@ export default function ExamPreparation() {
           <h3>1000+</h3>
           <p>Students Trained</p>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="prep-cta">
         <h2>Prepare Smart. Perform Better.</h2>
-        <p>Free demo • Expert guidance • Proven strategies</p>
+        <p>Free demo | Expert guidance | Proven strategies</p>
       </section>
     </div>
   );

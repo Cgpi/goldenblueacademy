@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-box">
           <h3>Coaching Institute</h3>
           <p>
-            Empowering students from 8th to 12th with expert coaching and German
+            Empowering students from 8<sup>th</sup> to 12<sup>th</sup> with expert coaching and German
             language certification.
           </p>
         </div>
@@ -36,13 +36,13 @@ export default function Footer() {
           <h3>Our Courses</h3>
           <ul>
             <li>
-              <Link to="/eighth-to-tenth-coaching">8th – 10th Coaching</Link>
+              <Link to="/eighth-to-tenth-coaching">8<sup>th</sup> – 10<sup>th</sup> Coaching</Link>
             </li>
             <li>
-              <Link to="/twelfth-coaching">11th – 12th Science</Link>
+              <Link to="/twelfth-coaching">11<sup>th</sup> – 12<sup>th</sup> Science</Link>
             </li>
             <li>
-              <Link to="/commerce-coaching">11th – 12th Commerce</Link>
+              <Link to="/commerce-coaching">11<sup>th</sup> – 12<sup>th</sup> Commerce</Link>
             </li>
             <li>
               <Link to="/pcmb-jee-neet">CET/JEE/NEET</Link>

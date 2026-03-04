@@ -41,8 +41,8 @@ export default function CommerceCoaching() {
 
       {/* HERO */}
       <section className="commerce-hero">
-        <h1>11th & 12th Commerce Coaching</h1>
-        <p>HSC • CBSE • ISC Boards</p>
+        <h1>11<sup>th</sup> & 12<sup>th</sup> Commerce Coaching</h1>
+        <p>HSC | CBSE | ISC Boards</p>
 
         <div className="hero-buttons">
           <button
@@ -74,9 +74,9 @@ export default function CommerceCoaching() {
       <section className="commerce-about">
         <h2>About Our Commerce Program</h2>
         <p>
-          Our commerce coaching is designed to build strong fundamentals,
-          improve exam performance, and guide students towards professional
-          careers like CA, CS, CMA, and management studies.
+          Our commerce coaching is designed to build strong fundamentals
+          improve exam performance and guide students towards professional
+          careers like CA, CS, CMA and management studies.
         </p>
 
         <ul>
@@ -93,7 +93,7 @@ export default function CommerceCoaching() {
 
         <div className="subject-grid">
           <div className="subject-card">
-            <h3>11th Commerce</h3>
+            <h3>11<sup>th</sup> Commerce</h3>
             <ul>
               <li>Accountancy</li>
               <li>Economics</li>
@@ -105,7 +105,7 @@ export default function CommerceCoaching() {
           </div>
 
           <div className="subject-card">
-            <h3>12th Commerce</h3>
+            <h3>12<sup>th</sup> Commerce</h3>
             <ul>
               <li>Advanced Accountancy</li>
               <li>Economics</li>
@@ -133,7 +133,7 @@ export default function CommerceCoaching() {
       </section>
 
       {/* STATS */}
-      <section className="commerce-stats">
+      {/* <section className="commerce-stats">
         <div>
           <h3>95%</h3>
           <p>Board Results</p>
@@ -150,12 +150,12 @@ export default function CommerceCoaching() {
           <h3>100+</h3>
           <p>Top College Admissions</p>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="commerce-cta">
         <h2>Build a Strong Commerce Foundation</h2>
-        <p>Free demo • Expert faculty • Career guidance</p>
+        <p>Free demo | Expert faculty | Career guidance</p>
 
         <button
           className="btn-primary"

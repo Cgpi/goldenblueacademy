@@ -19,7 +19,7 @@ export default function GermanProgram() {
 
           <ul>
             <li>A1 | A2 | B1 Levels & Certification</li>
-            <li>Study in Germany</li>
+            {/* <li>Study in Germany</li> */}
             <li>Career Opportunities</li>
           </ul>
 

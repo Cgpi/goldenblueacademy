@@ -42,11 +42,11 @@ export default function PCMBJeeNeet() {
         {/* HERO */}
         <section className="pcmb-hero">
           <div className="pcmb-hero-inner">
-            <h1>PCMB • CET • NEET • JEE Coaching Academy</h1>
+            <h1>PCMB | CET | NEET | JEE Coaching Academy</h1>
             <h2>Crack NEET, JEE & CET with Expert Coaching</h2>
             <p>
               <strong>
-                PCMB Coaching for Class 11 & 12 | Results-Driven | Limited Seats
+                PCMB Coaching for Class 11<sup>th</sup> & 12<sup>th</sup> | Results-Driven | Limited Seats
               </strong>
             </p>
 
@@ -114,7 +114,7 @@ export default function PCMBJeeNeet() {
 
           <div className="pcmb-course-grid">
             <div className="pcmb-course-card">
-              <h3>🧪 PCMB Coaching (11th & 12th)</h3>
+              <h3>🧪 PCMB Coaching (11<sup>th</sup> & 12<sup>th</sup>)</h3>
               <p>
                 Ideal for students keeping engineering & medical options open.
               </p>
