@@ -29,7 +29,7 @@ export default function GermanLanguage() {
           <h1>German Language Program</h1>
           <h2>A1 | A2 | B1 | B2 | C1 (CEFR Based)</h2>
           <p>
-            Learn German 
+            Learn German
             {/* <strong>
               {" "}
               International Certification, Study in Germany, Ausbildung, Jobs,
@@ -38,31 +38,6 @@ export default function GermanLanguage() {
             . Suitable for school students, college students, and working
             professionals.
           </p>
-
-          <div className="gl-hero-actions">
-            <button
-              className="gl-btn primary"
-              onClick={() =>
-                window.open(
-                  "https://wa.me/9850030794?text=Hello%20I%20would%20like%20to%20book%20a%20free%20German%20language%20demo%20class",
-                  "_blank",
-                )
-              }
-            >
-              Book Free Demo
-            </button>
-
-            <button
-              className="gl-btn secondary"
-              onClick={() =>
-                document
-                  .getElementById("german-curriculum")
-                  .scrollIntoView({ behavior: "smooth" })
-              }
-            >
-              View Curriculum
-            </button>
-          </div>
         </div>
       </section>
 

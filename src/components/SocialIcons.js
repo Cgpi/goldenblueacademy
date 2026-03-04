@@ -4,15 +4,6 @@ export default function SocialIcons() {
   return (
     <div className="social-icons">
       <a
-        href="https://www.facebook.com/goldenblueacademy/"
-        target="_blank"
-        rel="noreferrer"
-        className="facebook"
-      >
-        <i className="fab fa-facebook-f"></i>
-      </a>
-
-      <a
         href="https://www.instagram.com/goldenblueacademy/"
         target="_blank"
         rel="noreferrer"

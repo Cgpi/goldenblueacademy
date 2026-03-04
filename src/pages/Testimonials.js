@@ -70,16 +70,15 @@ function Testimonials() {
   };
 
   return (
-    <div className="testimonials-page">
-      <div className="hero-section">
+    <div className="ts-page">
+      <div className="ts-hero">
         <h1>OUR STUDENTS REVIEW</h1>
-        <p>Golden Blue Academy – Bibwewadi, Pune 411043</p>
       </div>
 
-      <div className="main-layout">
+      <div className="ts-layout">
         {/* LEFT SLIDER */}
-        <div className="side-videos">
-          <div className="video-track">
+        <div className="ts-side">
+          <div className="ts-track">
             {[...videos.slice(0, 4), ...videos.slice(0, 4)].map((video, i) => (
               <video
                 key={i}
@@ -87,6 +86,7 @@ function Testimonials() {
                 muted
                 playsInline
                 preload="metadata"
+                className="ts-thumb-video"
                 onClick={() => setSelectedVideo(video)}
               />
             ))}
@@ -94,17 +94,17 @@ function Testimonials() {
         </div>
 
         {/* CENTER */}
-        <div className="center-reviews">
+        <div className="ts-center">
           {reviewImages.map((img, i) => (
-            <div className="review-card" key={i}>
+            <div className="ts-card" key={i}>
               <img src={img} alt="review" />
             </div>
           ))}
         </div>
 
         {/* RIGHT SLIDER */}
-        <div className="side-videos">
-          <div className="video-track reverse">
+        <div className="ts-side">
+          <div className="ts-track ts-reverse">
             {[...videos.slice(4, 8), ...videos.slice(4, 8)].map((video, i) => (
               <video
                 key={i}
@@ -112,6 +112,7 @@ function Testimonials() {
                 muted
                 playsInline
                 preload="metadata"
+                className="ts-thumb-video"
                 onClick={() => setSelectedVideo(video)}
               />
             ))}
@@ -121,17 +122,21 @@ function Testimonials() {
 
       {/* MODAL */}
       {selectedVideo && (
-        <div className="video-modal" onClick={closeModal}>
-          <div className="video-content" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={closeModal}>
+        <div className="ts-modal" onClick={closeModal}>
+          <div className="ts-modal-box" onClick={(e) => e.stopPropagation()}>
+            <button className="ts-close" onClick={closeModal}>
               ×
             </button>
 
-            <div className="video-wrapper">
-              <video ref={videoRef} src={selectedVideo} />
+            <div className="ts-video-box">
+              <video
+                ref={videoRef}
+                src={selectedVideo}
+                className="ts-main-video"
+              />
 
               {!isPlaying && (
-                <div className="custom-play" onClick={togglePlay}>
+                <div className="ts-play" onClick={togglePlay}>
                   ▶
                 </div>
               )}

@@ -1,25 +1,26 @@
-.testimonials-page {
+/* PAGE */
+.ts-page {
     font-family: Arial, Helvetica, sans-serif;
     background: #f5f6fa;
 }
 
 /* HERO */
-.hero-section {
+.ts-hero {
     background: #1e2a78;
     color: white;
     text-align: center;
     padding: 45px 20px;
 }
 
-/* MAIN LAYOUT */
-.main-layout {
+/* LAYOUT */
+.ts-layout {
     display: flex;
     gap: 30px;
     padding: 50px 5%;
 }
 
 /* SIDE SLIDERS */
-.side-videos {
+.ts-side {
     flex: 1;
     max-width: 220px;
     height: 200vh;
@@ -29,23 +30,23 @@
 }
 
 /* STOP ANIMATION WHEN MODAL OPEN */
-body.modal-open .video-track {
+body.modal-open .ts-track {
     animation: none !important;
 }
 
-/* VIDEO TRACK */
-.video-track {
+/* TRACK */
+.ts-track {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    animation: scrollUp 30s linear infinite;
+    animation: tsScrollUp 30s linear infinite;
 }
 
-.video-track.reverse {
-    animation: scrollDown 30s linear infinite;
+.ts-reverse {
+    animation: tsScrollDown 30s linear infinite;
 }
 
-.video-track video {
+.ts-thumb-video {
     width: 100%;
     height: 140px;
     object-fit: cover;
@@ -53,13 +54,13 @@ body.modal-open .video-track {
     cursor: pointer;
 }
 
-/* REMOVE DEFAULT CONTROLS */
-.video-track video::-webkit-media-controls {
+/* REMOVE CONTROLS */
+.ts-thumb-video::-webkit-media-controls {
     display: none !important;
 }
 
 /* ANIMATIONS */
-@keyframes scrollUp {
+@keyframes tsScrollUp {
     0% {
         transform: translateY(0);
     }
@@ -69,7 +70,7 @@ body.modal-open .video-track {
     }
 }
 
-@keyframes scrollDown {
+@keyframes tsScrollDown {
     0% {
         transform: translateY(-50%);
     }
@@ -79,27 +80,27 @@ body.modal-open .video-track {
     }
 }
 
-/* CENTER */
-.center-reviews {
+/* CENTER GRID */
+.ts-center {
     flex: 2;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
 }
 
-.review-card {
+.ts-card {
     background: white;
     padding: 10px;
     border-radius: 10px;
 }
 
-.review-card img {
+.ts-card img {
     width: 100%;
     border-radius: 8px;
 }
 
 /* MODAL */
-.video-modal {
+.ts-modal {
     position: fixed;
     inset: 0;
     background: rgba(0, 0, 0, 0.9);
@@ -109,41 +110,34 @@ body.modal-open .video-track {
     z-index: 9999999;
 }
 
-.video-content {
+.ts-modal-box {
     width: 800px;
-    /* fixed width */
     max-width: 95%;
     background: white;
-    padding: 20px;
+    padding: 10px;
     border-radius: 12px;
     position: relative;
 }
 
-/* FIXED VIDEO SIZE */
-.video-wrapper {
+/* FIXED SIZE VIDEO */
+.ts-video-box {
     position: relative;
     width: 100%;
     aspect-ratio: 16 / 9;
-    /* forces same ratio */
     background: black;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.video-wrapper video {
+.ts-main-video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-    /* prevents distortion */
-}
-
-.video-wrapper video {
-    width: 100%;
-    border-radius: 8px;
+    object-fit: contain;
+    /* No cropping */
 }
 
 /* PLAY BUTTON */
-.custom-play {
+.ts-play {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -161,51 +155,55 @@ body.modal-open .video-track {
 }
 
 /* CLOSE BUTTON */
-.close-btn {
-    position: relative;
-    top: 0px;
-    right: 12px;
-    background: #1e2a78;
-    color: white;
-    border: none;
-    width: 32px;
-    height: 32px;
+.ts-close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    background: #ffcc00;
+    color: #000;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 30px;
     cursor: pointer;
-
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
 }
 
 /* RESPONSIVE */
 @media (max-width: 1024px) {
-    .main-layout {
+    .ts-layout {
         flex-direction: column;
     }
 }
 
 @media (max-width: 768px) {
 
-    .side-videos {
+    .ts-side {
         max-width: 100%;
         height: 160px;
     }
 
-    .video-track {
+    .ts-track {
         flex-direction: row;
         width: max-content;
-        animation: scrollLeft 25s linear infinite;
+        animation: tsScrollLeft 25s linear infinite;
     }
 
-    .video-track.reverse {
-        animation: scrollRight 25s linear infinite;
+    .ts-reverse {
+        animation: tsScrollRight 25s linear infinite;
     }
 
-    .video-track video {
+    .ts-thumb-video {
         width: 180px;
         height: 120px;
         flex-shrink: 0;
     }
 
-    @keyframes scrollLeft {
+    @keyframes tsScrollLeft {
         0% {
             transform: translateX(0);
         }
@@ -215,7 +213,7 @@ body.modal-open .video-track {
         }
     }
 
-    @keyframes scrollRight {
+    @keyframes tsScrollRight {
         0% {
             transform: translateX(-50%);
         }

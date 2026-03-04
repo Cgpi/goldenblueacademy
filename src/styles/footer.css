@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(135deg, #0a3d91, #0b5ed7);
+  background: linear-gradient(135deg, #0b5ed7,  #003087);
   color: white;
   padding-top: 60px;
 }
@@ -60,7 +60,7 @@
 }
 
 .footer-bottom {
-  background: #082f6b;
+  background: #003087;
   text-align: center;
   padding: 15px;
   font-size: 14px;

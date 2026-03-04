@@ -15,45 +15,31 @@ const courseData = [
   {
     title: "8th – 10th Coaching",
     icon: <School />,
-    path: "/eighth-to-tenth-coaching",
+    path: "/courses",
     mode: "Online & Offline",
     modeKey: "both",
   },
   {
     title: "11th – 12th Science",
     icon: <BookOpen />,
-    path: "/twelfth-coaching",
+    path: "/courses",
     mode: "Online & Offline",
     modeKey: "both",
   },
   {
     title: "11th – 12th Commerce",
     icon: <Library />,
-    path: "/commerce-coaching",
+    path: "/courses",
     mode: "Online & Offline",
     modeKey: "both",
   },
   {
     title: "CET/JEE/NEET",
     icon: <Brain />,
-    path: "/pcmb-jee-neet",
+    path: "/courses",
     mode: "Online & Offline",
     modeKey: "both",
-  },
-  {
-    title: "Exam Preparation",
-    icon: <AlarmClock />,
-    path: "/exam-preparation",
-    mode: "Online & Offline",
-    modeKey: "both",
-  },
-  {
-    title: "Doubt Solving Sessions",
-    icon: <HelpCircle />,
-    path: "/doubt-solving",
-    mode: "Online & Offline",
-    modeKey: "both",
-  },
+  }
 ];
 
 export default function Courses() {

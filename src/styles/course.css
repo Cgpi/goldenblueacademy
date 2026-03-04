@@ -1,0 +1,122 @@
+:root {
+    --royal-blue: #0f2c67;
+    --deep-blue: #002147;
+    --yellow: #ffd700;
+    --light-yellow: #ffea70;
+    --white: #ffffff;
+    --gray: #f5f7fa;
+}
+
+.courses-page {
+    font-family: "Segoe UI", sans-serif;
+    background: var(--gray);
+    color: var(--deep-blue);
+}
+
+/* GRID LAYOUT */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 60px 8%;
+}
+
+/* CARD */
+.course-card {
+    background: var(--white);
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-8px);
+}
+
+/* SECTION */
+.course-section {
+    padding: 40px;
+    text-align: center;
+}
+
+.course-section h1 {
+    font-size: 26px;
+    color: var(--royal-blue);
+    margin-bottom: 10px;
+}
+
+.course-section h1::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background: var(--yellow);
+    display: block;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+
+.course-section h3 {
+    margin-top: 20px;
+    color: var(--royal-blue);
+}
+
+.course-section p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.course-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.course-section ul li {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+.course-section ul li::before {
+    content: "✔";
+    color: var(--yellow);
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+/* CTA */
+.course-cta {
+    background: var(--royal-blue);
+    color: var(--white);
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.course-cta button {
+    background: var(--yellow);
+    color: var(--deep-blue);
+    border: none;
+    padding: 14px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.course-cta button:hover {
+    background: var(--light-yellow);
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .course-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .course-grid {
+        padding: 30px 20px;
+    }
+
+    .course-section {
+        padding: 30px 20px;
+    }
+}

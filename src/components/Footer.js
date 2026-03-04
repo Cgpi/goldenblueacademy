@@ -36,16 +36,16 @@ export default function Footer() {
           <h3>Our Courses</h3>
           <ul>
             <li>
-              <Link to="/eighth-to-tenth-coaching">8<sup>th</sup> – 10<sup>th</sup> Coaching</Link>
+              <Link to="/courses">8<sup>th</sup> – 10<sup>th</sup> Coaching</Link>
             </li>
             <li>
-              <Link to="/twelfth-coaching">11<sup>th</sup> – 12<sup>th</sup> Science</Link>
+              <Link to="/courses">11<sup>th</sup> – 12<sup>th</sup> Science</Link>
             </li>
             <li>
-              <Link to="/commerce-coaching">11<sup>th</sup> – 12<sup>th</sup> Commerce</Link>
+              <Link to="/courses">11<sup>th</sup> – 12<sup>th</sup> Commerce</Link>
             </li>
             <li>
-              <Link to="/pcmb-jee-neet">CET/JEE/NEET</Link>
+              <Link to="/courses">CET | JEE | NEET</Link>
             </li>
           </ul>
         </div>
