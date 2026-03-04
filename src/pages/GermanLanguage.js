@@ -27,14 +27,14 @@ export default function GermanLanguage() {
       <section className="gl-hero">
         <div className="gl-container gl-hero-content">
           <h1>German Language Program</h1>
-          <h2>A1 • A2 • B1 • B2 • C1 (CEFR Based)</h2>
+          <h2>A1 | A2 | B1 | B2 | C1 (CEFR Based)</h2>
           <p>
-            Learn German with complete preparation for
-            <strong>
+            Learn German 
+            {/* <strong>
               {" "}
               International Certification, Study in Germany, Ausbildung, Jobs,
               and PR
-            </strong>
+            </strong> */}
             . Suitable for school students, college students, and working
             professionals.
           </p>
@@ -175,7 +175,7 @@ export default function GermanLanguage() {
       </section>
 
       {/* STATS */}
-      <section className="gl-section light">
+      {/* <section className="gl-section light">
         <div className="gl-container gl-stats">
           <div>
             <strong>95%</strong>
@@ -194,12 +194,12 @@ export default function GermanLanguage() {
             <span>Happy Learners</span>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="gl-cta">
         <h3>Start Your German Learning Journey Today</h3>
-        <p>Free demo • Expert trainers • Certification support</p>
+        <p>Free demo | Expert trainers | Certification support</p>
       </section>
     </div>
   );

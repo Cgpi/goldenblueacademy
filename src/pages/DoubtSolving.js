@@ -43,7 +43,7 @@ export default function DoubtSolving() {
         <section className="doubt-hero">
           <h1>Doubt Solving Sessions</h1>
           <p>
-            Clear Your Concepts • Boost Confidence <br />
+            Clear Your Concepts | Boost Confidence <br />
             Personal Attention for Every Student
           </p>
 
@@ -93,7 +93,7 @@ export default function DoubtSolving() {
         {/* CTA */}
         <section className="doubt-cta">
           <h2>No Doubts. Just Confidence.</h2>
-          <p>Ask freely • Learn deeply • Perform better</p>
+          <p>Ask freely | Learn deeply | Perform better</p>
         </section>
       </div>
     </>

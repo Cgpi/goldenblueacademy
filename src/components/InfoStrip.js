@@ -16,7 +16,7 @@ export default function InfoStrip() {
         </div>
 
         <div className="info-item">
-          <span className="info-icon">🇩🇪</span>
+          <span className="info-icon">🏅</span>
           <p>German Certification</p>
         </div>
 

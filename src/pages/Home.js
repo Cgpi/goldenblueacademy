@@ -3,7 +3,7 @@ import InfoStrip from "../components/InfoStrip";
 import About from "../components/About";
 import Courses from "../components/Courses";
 import GermanProgram from "../components/GermanProgram";
-import Results from "../components/Results";
+//import Results from "../components/Results";
 import StudentsSection from "../components/StudentsSection";
 import { useEffect } from "react";
 
@@ -18,7 +18,7 @@ function Home() {
       <About />
       <Courses />
       <GermanProgram />
-      <Results />
+      {/* <Results /> */}
       <StudentsSection />
     </>
   );

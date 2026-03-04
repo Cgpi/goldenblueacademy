@@ -17,7 +17,7 @@ export default function Hero() {
           for 8<sup>th</sup> to 12<sup>th</sup> – All Boards
         </h1>
 
-        <p>Academic Coaching | German Language | Global Certification</p>
+        <p>Academic Coaching | German Language | Certification</p>
 
         <div className="hero-buttons">
           <button

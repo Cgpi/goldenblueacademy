@@ -41,8 +41,8 @@ export default function TwelfthCoaching() {
 
       {/* HERO */}
       <section className="twelfth-hero">
-        <h1>12th Coaching – Science </h1>
-        <p>HSC • CBSE • ISC Board Exam Excellence</p>
+        <h1>12<sup>th</sup> Coaching – Science </h1>
+        <p>HSC | CBSE | ISC Board Exam Excellence</p>
 
         <div className="hero-buttons">
           <button
@@ -72,7 +72,7 @@ export default function TwelfthCoaching() {
 
       {/* ABOUT */}
       <section className="twelfth-about">
-        <h2>About Our 12th Coaching Program</h2>
+        <h2>About Our 12<sup>th</sup> Coaching Program</h2>
         <p>
           We provide focused and result-oriented coaching for 12th Science
           students across all major boards. Our teaching methodology ensures
@@ -93,7 +93,7 @@ export default function TwelfthCoaching() {
 
         {/* HSC */}
         <div className="board-card">
-          <h2>12th HSC (Maharashtra Board)</h2>
+          <h2>12<sup>th</sup> HSC (Maharashtra Board)</h2>
 
           <div className="stream-grid">
             <div>
@@ -117,7 +117,7 @@ export default function TwelfthCoaching() {
 
         {/* CBSE */}
         <div className="board-card">
-          <h2>12th CBSE (NCERT Based)</h2>
+          <h2>12<sup>th</sup> CBSE (NCERT Based)</h2>
 
           <div className="stream-grid">
             <div>
@@ -141,7 +141,7 @@ export default function TwelfthCoaching() {
 
         {/* ISC */}
         <div className="board-card">
-          <h2>12th ISC (ICSE Board)</h2>
+          <h2>12<sup>th</sup> ISC (ICSE Board)</h2>
 
           <div className="stream-grid">
             <div>
@@ -165,7 +165,7 @@ export default function TwelfthCoaching() {
       </section>
 
       {/* STATS */}
-      <section className="twelfth-stats">
+      {/* <section className="twelfth-stats">
         <div>
           <h3>95%</h3>
           <p>Board Results</p>
@@ -182,12 +182,12 @@ export default function TwelfthCoaching() {
           <h3>500+</h3>
           <p>Successful Students</p>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="twelfth-cta">
-        <h2>Score High in Your 12th Board Exams</h2>
-        <p>Free demo • Expert faculty • Proven results</p>
+        <h2>Score High in Your 12<sup>th</sup> Board Exams</h2>
+        <p>Free demo | Expert faculty | Proven results</p>
 
         <button
           className="btn-primary"

@@ -36,9 +36,9 @@ export default function EighthToTenthCoaching() {
 
       {/* HERO SECTION */}
       <section className="coaching-hero">
-        <h1>8th to 12th Board Coaching</h1>
+        <h1>8<sup>th</sup> to 12<sup>th</sup> Board Coaching</h1>
         <p>
-          SSC • CBSE • ICSE • IGCSE <br />
+          SSC | CBSE | ICSE | IGCSE <br />
           Expert Coaching Under One Roof
         </p>
 
@@ -129,7 +129,7 @@ export default function EighthToTenthCoaching() {
       </section>
 
       {/* STATS SECTION */}
-      <section className="coaching-stats">
+      {/* <section className="coaching-stats">
         <div>
           <h3>95%</h3>
           <p>Pass Rate</p>
@@ -146,12 +146,12 @@ export default function EighthToTenthCoaching() {
           <h3>500+</h3>
           <p>Happy Students</p>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA SECTION */}
       <section className="coaching-cta">
         <h2>Start Your Academic Success Journey Today</h2>
-        <p>Free demo • Expert faculty • Result oriented coaching</p>
+        <p>Free demo | Expert faculty | Result oriented coaching</p>
 
         <button
           className="btn-primary"

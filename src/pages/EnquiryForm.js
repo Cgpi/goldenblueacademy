@@ -90,9 +90,9 @@ const EnquiryForm = ({ onClose }) => {
           <label>Interested Course</label>
           <select name="course" required>
             <option value="">Select Course</option>
-            <option>8th to 10th Coaching</option>
-            <option>11th to 12th Science</option>
-            <option>11th to 12th Commerce</option>
+            <option>8<sup>th</sup> to 10<sup>th</sup> Coaching</option>
+            <option>11<sup>th</sup> to 12<sup>th</sup> Science</option>
+            <option>11<sup>th</sup> to 12<sup>th</sup> Commerce</option>
             <option>CET/JEE/NEET</option>
             <option>German Language</option>
           </select>
