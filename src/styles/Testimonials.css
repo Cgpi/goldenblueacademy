@@ -1,0 +1,101 @@
+/* Page Background */
+.testimonials-page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #1e2a78;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.hero-section p {
+    font-size: 18px;
+}
+
+/* Section */
+.section {
+    padding: 50px 10%;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: #1e2a78;
+    border-bottom: 3px solid #f5c518;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Review Grid */
+.review-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.review-card {
+    background: white;
+    border: 2px solid #ddd;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.review-card:hover {
+    transform: scale(1.05);
+}
+
+.review-card img {
+    width: 100%;
+    height: auto;
+}
+
+/* Video Grid */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.video-card {
+    background: white;
+    border: 2px solid #ddd;
+    padding: 10px;
+}
+
+.video-card video {
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .review-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .video-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .review-grid,
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section h1 {
+        font-size: 28px;
+    }
+}

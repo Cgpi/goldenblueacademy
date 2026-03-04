@@ -29,6 +29,8 @@ export default function Navbar() {
             </a>
             <a href="/german-language">German Language</a>
 
+            <a href="/testimonials">Testimonials</a>
+
             {/* Mobile enroll button */}
             <button
               className="enroll-btn mobile-enroll"

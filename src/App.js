@@ -15,6 +15,7 @@ import EnquiryForm from "./pages/EnquiryForm";
 import MainCourses from "./pages/MainCourses";
 import DoubtSolving from "./pages/DoubtSolving";
 import ExamPreparation from "./pages/ExamPreparation";
+import Testimonials from "./pages/Testimonials";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/exam-preparation" element={<ExamPreparation />} />
         <Route path="/enquiry" element={<EnquiryForm />} />
         <Route path="/courses" element={<MainCourses />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
 
       <Footer />
