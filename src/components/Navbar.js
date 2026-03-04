@@ -29,7 +29,7 @@ export default function Navbar() {
             </a>
             <a href="/german-language">German Language</a>
 
-            <a href="/testimonials">Testimonials</a>
+            <a href="/testimonials">Our Students Review</a>
 
             {/* Mobile enroll button */}
             <button
